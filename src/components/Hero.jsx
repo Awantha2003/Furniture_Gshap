@@ -1,4 +1,6 @@
 import { ArrowRight } from 'lucide-react'
+import HeroImage from './HeroImage'
+import Header from "./components/Header.jsx";
 
 
 const Hero = () => {
@@ -25,7 +27,7 @@ const Hero = () => {
         </div>
 
         {/* CTA Buttons */}
-        <button className="group flex items-center space-x-3 bg-zinc-900 text-white text-sm font-semibold py-4 rounded-full transition-all duration-150 gover:bg-transparent border border-zinc-900 hover:text-zinc-900 ease-in lg:absolute lg:text-lg lg:py-5 lg:px-10 bottom-10 right-10 hover:animate-wiggle"> 
+        <button className="group flex items-center space-x-3 bg-zinc-900 text-white text-sm font-semibold py-4 px-6 rounded-full transition-all duration-150 gover:bg-transparent border border-zinc-900 hover:text-zinc-900 ease-in lg:absolute lg:text-lg lg:py-5 lg:px-10 bottom-10 right-10 hover:animate-wiggle cursor-pointer "> 
           <span>Shop Now</span>
           <ArrowRight size={20} className="group-hover:rotate-360 -routate-350 transition-all duration-500 ease-in"/>
         </button>
@@ -35,7 +37,7 @@ const Hero = () => {
 
 
       {/* Right content */}
-      <div className=""> </div>
+    <HeroImage/>
 
     </section>
   )
