@@ -16,7 +16,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center space-x-8">
           <NavBtn active>Home</NavBtn>
           <NavBtn>About</NavBtn>
-          <NavBtn>Works</NavBtn>
+          <NavBtn>Works </NavBtn>
           <NavBtn>Gallery</NavBtn>
           <NavBtn>Service</NavBtn>
         </div>
