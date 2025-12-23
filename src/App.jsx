@@ -5,7 +5,7 @@ const App = () => {
 
   return <div className="min-h-screen overflow">
     {/* Header */}
-    <Header />
+    <Header/>
 
      {/*Main */}
     
