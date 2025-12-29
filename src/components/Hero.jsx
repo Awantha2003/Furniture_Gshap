@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import HeroImage from './HeroImage'
-import Header from "./components/Header.jsx";
+import Header from "./Header.jsx";
 
 
 const Hero = () => {

@@ -1,6 +1,7 @@
 
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
+import Trending from "./components/Trending.jsx";
 
 const App = () => {
   return (
